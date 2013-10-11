@@ -8,10 +8,10 @@ Clone this repo
 git clone https://github.com/ericwhyne/XData_Ubuntu_Hadoop.git
 </code>
 
-Go to the repo directory and start the environment
+Go to the repo directory and start the environment<br>
 <code>
-cd ...
-vagrant up
+cd ..<br>
+vagrant up<br>
 </code>
 
 Wait for vagrant to configure the VM, then connect the host machine to the XData VPN.
