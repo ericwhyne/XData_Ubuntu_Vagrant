@@ -18,3 +18,11 @@ Log in to the VM and switch to the hdfs user<br>
 Use scripts to view HDFS file system or run the hadoop streaming tests.<br>
 From /home/hdfs/ as hdfs user:<br>
 <code>./scripts/compute-hdfs -ls /</code><br>
+
+
+To have Vagrant sync the Guest Additions for Virtual Box do the following:
+$ # For vagrant < 1.1.5:
+$ # vagrant gem install vagrant-vbguest
+
+$ # For vagrant 1.1.5+ (thanks Lars Haugseth):
+$ vagrant plugin install vagrant-vbguest
