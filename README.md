@@ -1,6 +1,9 @@
 Install and configure Vagrant<br>
 <code>sudo apt-get install vagrant</code>
 
+(Optional) Add Vagrant plugin that keeps Virtual Box Guest Additions in sync.<br>
+<code>vagrant plugin install vagrant-vbguest</code>
+
 Clone this repo<br>
 <code>git clone https://github.com/ericwhyne/XData_Ubuntu_Hadoop.git</code>
 
