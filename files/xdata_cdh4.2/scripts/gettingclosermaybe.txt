@@ -1,3 +1,0 @@
-2013-10-06 20:07:25,397 WARN  util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2013-10-06 20:07:25,950 WARN  hdfs.DomainSocketFactory (DomainSocketFactory.java:<init>(65)) - The short-circuit local reads feature is disabled because libhadoop cannot be loaded.
-2013-10-06 20:07:26,024 INFO  mapreduce.Cluster (Cluster.java:initialize(114)) - Failed to use org.apache.hadoop.mapred.LocalClientProtocolProvider due to error: Invalid "mapreduce.jobtracker.address" configuration value for LocalJobRunner : "xd-jobtracker.xdata.data-tactics-corp.com:8021"
