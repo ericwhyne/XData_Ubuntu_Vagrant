@@ -3,7 +3,7 @@
 echo "test for" > /echo.txt
 sudo apt-get update
 # Hadoop requires a Java runtime enviornment be available
-sudo apt-get -y install  openjdk-6-jre
+sudo apt-get -y install  openjdk-6-jdk
 # Necessary for automatically creating the hdfs user 
 sudo apt-get -y install makepasswd
 
